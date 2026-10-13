@@ -27,3 +27,6 @@ Wczesna faza rozwoju (MVP).
 - PostgreSQL
 - Celery + Redis
 - Docker
+## Demo
+
+Przykładowe działanie silnika analizy znajdziesz w pliku:
