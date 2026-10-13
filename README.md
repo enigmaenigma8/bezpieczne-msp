@@ -1,32 +1,12 @@
-# Bezpieczne MSP
+## Examples
 
-Automatyczna ochrona poczty elektronicznej dla małych i średnich przedsiębiorstw.
+### Demo silnika analizy
 
-## Opis
+W katalogu `examples/` znajduje się prosty skrypt demonstracyjny:
 
-Narzędzie analizuje przychodzące wiadomości e-mail pod kątem phishingu, fałszywych faktur i podszywania się pod znane marki (Allegro, InPost, banki, urzędy).  
-Generuje alert tylko wtedy, gdy wykryje podwyższone ryzyko, wraz z jasną rekomendacją działania.
+- `examples/demo.py` – pokazuje analizę wiadomości phishingowej i bezpiecznej wiadomości.
 
-Projekt jest skierowany do firm, które nie posiadają dedykowanego zespołu IT.
+### Jak uruchomić demo (lokalnie)
 
-## Główne założenia
-
-- Jednorazowe podłączenie skrzynki
-- Automatyczna analiza w tle
-- Minimalne obciążenie użytkownika
-- Wsparcie podstawowych obowiązków związanych z bezpieczeństwem informacji
-
-## Status
-
-Wczesna faza rozwoju (MVP).
-
-## Technologie
-
-- Python
-- FastAPI
-- PostgreSQL
-- Celery + Redis
-- Docker
-## Demo
-
-Przykładowe działanie silnika analizy znajdziesz w pliku:
+```bash
+python examples/demo.py
